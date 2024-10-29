@@ -122,32 +122,3 @@ if __name__ == "__main__":
     document_loader = DocumentLoader(source_directory)
     
     documents = document_loader.load_all_documents()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# from langchain_community.embeddings import OpenAIEmbeddings
-# from langchain_community.vectorstores import FAISS
-# directory_path = os.path.join(os.path.dirname(__file__),'..','Data')
-# documents = load_documents(directory_path)
-# print(documents)
-
-# print(os.path.join(os.path.dirname(__file__),'..','Data'))

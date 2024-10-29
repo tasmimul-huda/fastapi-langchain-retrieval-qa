@@ -18,8 +18,6 @@ MODEL_BASENAME = conf.MODEL_BASENAME
 COLLECTION_NAME = conf.COLLECTION_NAME
 PERSIST_DIRECTORY = conf.PERSIST_DIRECTORY
 
-print(OPENAI_API_KEY, MODEL_ID, MODEL_BASENAME, PERSIST_DIRECTORY, COLLECTION_NAME)
-
 embedding_model, llm_model = initialize_models(OPENAI_API_KEY,model_id=MODEL_ID, model_basename=MODEL_BASENAME)
 
 def validate_question(data: Dict) -> str:

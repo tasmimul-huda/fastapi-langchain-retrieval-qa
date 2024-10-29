@@ -53,6 +53,10 @@ python embedding_manager.py
 ```bash
 uvicorn main:app
 ```
+or
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
 3. Accessing the API:
 * Request Format: Ensure to send requests in the following format:
 ```bash
